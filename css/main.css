@@ -15,3 +15,29 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+body {
+  margin: 0;
+}
+
+.img-flex {
+  width: 100%;
+  display: block;
+}
+
+figure {
+  margin: 0;
+  position: relative;
+}
+
+figcaption {
+  max-width: 15em;
+  position: absolute;
+  bottom: .5em;
+  left: .5em;
+  color: #fff;
+  background-color: #000;
+  padding: 1em;
+  border-radius: .5em;
+
+}
