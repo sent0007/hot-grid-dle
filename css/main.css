@@ -31,12 +31,13 @@ figure {
 }
 
 figcaption {
+  font-family: "Roboto Slab", serif;
   max-width: 15em;
   position: absolute;
   bottom: .5em;
   left: .5em;
   color: #fff;
-  background-color: #000;
+  background-color: rgba(0, 0, 0, 0.5);
   padding: 1em;
   border-radius: .5em;
 
